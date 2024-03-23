@@ -33,7 +33,7 @@ const infoData = [
 
 const qualificationData = [
     {
-        title: 'educação',
+        title: 'educacao',
         data: [
             {
                 faculdade: 'Uniasselvi Leonardo da Vinci',
@@ -48,7 +48,7 @@ const qualificationData = [
         ],
     },
     {
-        title: 'experiência',
+        title: 'experiencia',
         data: [
             {
                 empresa: 'instituto pasteur',
@@ -91,8 +91,25 @@ const skillData = [
 ];
 
 const About = () => {
+    const getData = (arr, title) => {
+        return arr.find((item) => item.title === title);
+    };
+
     return (
-        <div>about</div>
+        <section className="xl:h-[860px] pb-12 xl:py-24">
+            <div className="container mx-auto">
+                <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">Sobre mim</h2>
+                <div>
+                    {/* image */}
+                    <div>
+                        <DevImg 
+                         containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative'
+                         imgSrc='/hero/developer-sam.png'
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
     );
 };
 
