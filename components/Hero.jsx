@@ -25,7 +25,7 @@ const Hero = () => {
                     <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
                         <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Web Developer</div>
                         <h1 className='h1 mb-4'>Olá, meu nome é Samuel Granados</h1>
-                        <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>Atualmente, estou me especializando em front-end e no ciclo de vida dos softwares. Meu foco é trabalhar como desenvolvedor web, aplicando minha criatividade para proporcionar uma experiência aprimorada aos usuários finais. Por esse motivo, dediquei parte do meu esforço na criação deste portfólio, onde apresento alguns dos trabalhos que já desenvolvi.
+                        <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>Atualmente, estou me especializando em front-end e na Engenharia de softwares. Meu foco é trabalhar como desenvolvedor de web, aplicando minha criatividade para proporcionar uma experiência aprimorada aos usuários finais. Por esse motivo, dediquei parte do meu esforço na criação deste portfólio, onde apresento alguns dos trabalhos que já desenvolvi.
                         </p>
                         {/* buttons */}
                         <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
