@@ -22,7 +22,7 @@ const projectData = [
         category: 'react js',
         name: 'Nexa Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -31,7 +31,7 @@ const projectData = [
         category: 'react js',
         name: 'Soltice Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -40,7 +40,7 @@ const projectData = [
         category: 'next js',
         name: 'Lumina Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -49,7 +49,7 @@ const projectData = [
         category: 'next js',
         name: 'Evolve Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -58,7 +58,7 @@ const projectData = [
         category: 'next js',
         name: 'Ignite Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -67,7 +67,7 @@ const projectData = [
         category: 'next js',
         name: 'Envision Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -76,7 +76,7 @@ const projectData = [
         category: 'fullstack',
         name: 'Serenity Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -85,7 +85,7 @@ const projectData = [
         category: 'fullstack',
         name: 'Nova Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -94,7 +94,7 @@ const projectData = [
         category: 'fullstack',
         name: 'Zenith Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, error ad illo modi aspernatur saepe quam. Expedita optio minima error quaerat dolore! Ipsa nisi harum cupiditate fugiat debitis, magnam iusto.',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -125,7 +125,7 @@ const Work = () => {
                         pagination={{ clickable: true }}
                     >
                         {/* show only the first 4 projects for de slides */}
-                        {projectData.slice(0.4).map((project, index) => {
+                        {projectData.slice(0, 4).map((project, index) => {
                             return (
                                 <SwiperSlide key={index}>
                                     <ProjectCard project={project} />
