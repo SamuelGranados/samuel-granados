@@ -45,13 +45,13 @@ const projectData = [
         github: '/',
     },
     {
-        image: '/work/1.png',
+        image: '/work/5.png',
         category: 'next js',
-        name: 'Evolve Website',
+        name: 'Alura Plus',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: '/',
-        github: '/',
+            'Desenvolvi esta leading page para consolidar conceitos de grids CSS',
+        link: 'https://alura-plus-three-inky.vercel.app/',
+        github: 'https://github.com/SamuelGranados/alura-plus',
     },
     {
         image: '/work/3.png',
@@ -125,7 +125,7 @@ const Work = () => {
                         pagination={{ clickable: true }}
                     >
                         {/* show only the first 4 projects for de slides */}
-                        {projectData.slice(0, 4).map((project, index) => {
+                        {projectData.slice(0, 5).map((project, index) => {
                             return (
                                 <SwiperSlide key={index}>
                                     <ProjectCard project={project} />
