@@ -90,16 +90,16 @@ const projectData = [
 ];
 
 const uniqueCategories = [
-    'todos os Projetos',
+    'projetos',
     ...new Set(projectData.map((item) => item.category)),
 ];
 
 const Projects = () => {
     const [categories, setCategories] = useState(uniqueCategories);
-    const [category, setCategory] = useState('todos os projetos');
+    const [category, setCategory] = useState('projetos');
 
     const filteredProjects = projectData.filter(project => {
-        return category === 'todos os projetos' ? project : project.category === category;
+        return category === 'projetos' ? project : project.category === category;
     });
 
 
