@@ -11,7 +11,7 @@ const Badge = ({containerStyles, icon, endCountNum, endCountText, badgeText,}) =
                     delay={1} duration={4}/>
                     {endCountText}
                 </div>
-                <div className='max-w-[70px] leading-none text-[15px] font-medium text-black'>{badgeText}</div>
+                <div className='max-w-[70px] leading-none text-[14px] font-medium text-black'>{badgeText}</div>
             </div>
         </div>
     );
