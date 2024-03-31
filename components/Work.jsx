@@ -46,7 +46,7 @@ const projectData = [
     },
     {
         image: '/work/5.png',
-        category: 'next js',
+        category: 'CSS',
         name: 'Alura Plus',
         description:
             'Desenvolvi esta leading page para consolidar conceitos de grids CSS',
@@ -54,22 +54,31 @@ const projectData = [
         github: 'https://github.com/SamuelGranados/alura-plus',
     },
     {
-        image: '/work/3.png',
-        category: 'next js',
-        name: 'Ignite Website',
+        image: '/work/6.png',
+        category: 'Bootstrap',
+        name: 'Prefeitura',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: '/',
-        github: '/',
+            'Implementei o Bootstrap para adicionar os icons card e carrosel, trabalhei tambem no Design.',
+        link: 'https://prefeitura-eosin.vercel.app/',
+        github: 'https://github.com/SamuelGranados/prefeitura',
     },
     {
-        image: '/work/4.png',
-        category: 'next js',
+        image: '/work/7.png',
+        category: 'react js',
         name: 'Envision Website',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        link: '/',
-        github: '/',
+            'Alura Newsletter post em formato de páginas web',
+        link: 'https://alura-newsletter-beta-ruddy.vercel.app/',
+        github: 'https://github.com/SamuelGranados/Alura-newsletter',
+    },
+    {
+        image: '/work/8.png',
+        category: 'css',
+        name: 'Bootstrap',
+        description:
+            'Este projeto foi desenvolvido na origmaid, focado na venta de bicicletas eletricas. Cada Bikcraft é única e possui a sua identidade.',
+        link: 'https://samuelgranados.github.io/bikcraft-ecommerce/',
+        github: 'https://github.com/SamuelGranados/bikcraft-ecommerce',
     },
     {
         image: '/work/1.png',
@@ -125,7 +134,7 @@ const Work = () => {
                         pagination={{ clickable: true }}
                     >
                         {/* show only the first 4 projects for de slides */}
-                        {projectData.slice(0, 5).map((project, index) => {
+                        {projectData.slice(0, 6).map((project, index) => {
                             return (
                                 <SwiperSlide key={index}>
                                     <ProjectCard project={project} />
