@@ -16,19 +16,19 @@ import { Pagination } from 'swiper/modules';
 
 const reviewsData = [
     {
-        avatar: '/reviews/avatar-2.png',
+        avatar: '/reviews/francini.png',
         name: 'Francine Muhl',
         job: 'Analista de Laboratório',
         review: 'Queridooo!! Você com certeza fez a diferença! Foi bom demais o tempo em que convivemos juntos! Lembro de ti iniciando essa jornada de estudos e de desenvolvimento...que coisa boa te ver assim! Sucesso pra ti sempre!!! Sorte de quem tem o privilégio de trabalhar contigo e dar boas risadas no dia a dia!',
     },
     {
-        avatar: '/reviews/avatar-1.png',
+        avatar: '/reviews/mile.png',
         name: 'Mileidys Morillo',
         job: 'Assistente de Operações Financeiras',
         review: 'Mais um ciclo fechado e o começo de uma nova aventura, desejo tudo o sucesso para você 🥰',
     },
     {
-        avatar: '/reviews/avatar-4.png',
+        avatar: '/reviews/rafaela.png',
         name: 'Rafaela Maciel Dos Santos',
         job: 'Engenheira Química',
         review: 'Muito bonito ver teu desenvolvimento nesses dois últimos anos, sem dúvida o empenho para adquirir habilidades que fossem mais acertivas com o ambiente em que estava fez de você um grande colaborador, Te desejo muito sucesso nesta nova etapa! Voa alto!',
