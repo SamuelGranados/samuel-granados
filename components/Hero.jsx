@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 import { Download, Send } from 'lucide-react';
 
+
 import {
     RiArrowDownSline,
     RiArrowDownSLine,
@@ -32,7 +33,10 @@ const Hero = () => {
                             <Link href='/contact'>
                                 <Button className='gap-x-2'>Contato <Send size={18} /></Button>
                             </Link>
+                            <a href='https://drive.google.com/file/d/11p4_pEscOjA02EdfcS3BCOmF4DBueK82/view?usp=sharing' download='https://drive.google.com/file/d/11p4_pEscOjA02EdfcS3BCOmF4DBueK82/view?usp=sharing' target='_blank'>
                             <Button variant='secondary' className='gap-x-2 text-white'>Baixar CV <Download size={18} /></Button>
+                            </a>
+                            
                         </div>
                         {/* socials */}
                         <Socials
